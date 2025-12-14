@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>practice page of html</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="menu-toggle" id="menuToggle">
+    <i class="fas fa-bars"></i>
+  </div>
+       
+            <ul class="list" id="navList">
+                <li class="menu">home</li>
+                <li class="menu">About</li>
+                <li class="menu">Courses </li>
+                <li class="menu">Blog</li>
+                <li class="menu">Contact</li>
+                <li><button class="btn" id="openLogin" >Login/Register</button></li>  
+            </ul>
+        </nav>
+    </header>
+    <main>
+         <div class="contain">
+  <div class=" left-box">
+    <h1>start  your coding <br> journey with <br> code with nisha</h1>
+    <div class="para">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Debitis nemo odio numquam ea. A at dolorem, non dolores recusandae inventore.
+     </p> </div>
+     <div class="buttonq">
+        <button class="btn">Let's Start</button>
+
+     </div>
+  </div>
+  <div class="box-right">
+    <img src="12.jpg" alt="my image">
+    
+  </div>
+</div>
+
+
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <div class="heading">
+      <h2>Sign In</h2>
+       </div>
+       <div class="paragraph">
+      <p class="paragm"> Enter your credentials to continue</p>
+      </div>
+
+    <form class="form">
+        <input class="Email" type="text" placeholder="Email"><br>
+        <br>
+        <br>
+        <input class="password" type="password" placeholder="Password"><br>
+        <br>
+        <!-- <div class="checkbox">
+         <input type="checkbox" id="Remember me" name="Remember me" value="">
+         <label for="Remember me">Remember me</label>
+
+         </div> -->
+        <!-- <button type="submit">Login</button> -->
+       
+    </form>
+    <div class="checkbox">
+      <div class="rem">
+         <input class="check" type="checkbox" id="Remember me" name="Remember me" value="Remember me" size="10px">
+         <label class="rema" for="Remember me">Remember me</label> 
+         </div>
+
+         <div class="forget">
+          <p class="fp">Forget Password?</p>
+         </div>
+         </div>
+         <div class="submit">
+          <button class="bon" type="submit">Sign In</button>
+         </div>
+         
+         <div class="last">
+          <p class="create"> Don't have an account? <span class="cre">create one</span></p>
+         </div>
+     
+
+  </div>
+</div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

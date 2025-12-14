@@ -1,0 +1,72 @@
+/* Root font size set kar rahe hain */
+html {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Basic style */
+body {
+  margin: 0;
+  background: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  margin: 1rem;
+  background-color: #0077b6;
+  color: white;
+  padding: 2rem; 
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* 1. rem Example */
+.rem-example {
+  background: #caf0f8;
+  padding: 3rem;
+  margin: 2rem;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+/* 2. vw Example */
+.vw-example {
+  background: #90e0ef;
+  width: 80vw;  /* 80% of screen width */
+  height: 30vh;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* 3. vh Example */
+/* .vh-example {
+  background: #00b4d8;
+  height: 40vh;  /* 40% of screen height */
+  /* margin: 2rem;
+  padding: 1rem; */
+  /* border-radius: 10px; */
+  /* color: white;
+  display: flex; */
+  /* flex-direction: column;
+  justify-content: center; */
+/* } */ 
+.vh-example{
+  background-color: #0077b6;
+  width:70vw;
+  margin: 2rem auto;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  justify-items: center;
+  justify-content: center;
+
+
+  
+}

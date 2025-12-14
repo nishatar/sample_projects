@@ -1,0 +1,55 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.container{
+    position: relative;
+    padding: 7rem 2rem;
+    background-color: white;
+    background-image: ;
+    border: 2px solid black;
+    width: 80%;
+    height: 70vh;
+      margin: 2rem auto;
+    text-wrap: wrap;
+    align-items: center;
+    
+    /* max-width: min(50%,600px); */
+
+
+}
+.box{
+    position: relative;
+    border: 2px solid black;
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    padding: 3rem 2rem;
+    width: 40%;
+    min-width: 250px;
+    height: auto;
+    align-items: center;
+    text-wrap: wrap;
+    z-index: 1;
+
+
+}
+ .container .img img {
+  position: absolute; /* parent ke andar fix */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  z-index: -1; /* peeche chali jaaye */
+  opacity: 0.5; /* thoda blur / light effect */
+}
+.img img {
+  size: 20%;
+}

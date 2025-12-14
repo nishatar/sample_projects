@@ -1,0 +1,185 @@
+body{
+    background-image: url(pngtree-minimalist-abstract-background-portfolio-picture-image_1447430.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+
+    
+    
+     
+}
+* {
+  margin: 4px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Navbar Styling --- */
+.navbar {
+  display: flex;
+  height: 4vw;
+  border-radius: 30px; 
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 60px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+
+/* --- Logo --- */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+
+/* --- Navigation Links --- */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1a1a1a;
+  /* font-weight: 600; */
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+     text-decoration: underline;
+  color: #ff9800;
+ 
+}
+.content{
+  margin: 50px,70px,50px,40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  font-style: normal;
+
+}
+.highlight{
+  color: rgba(206, 206, 15, 0.945);
+}
+.box{
+  display: flex;
+  align-items: center;       /* vertically center */
+  justify-content: space-between; /* space between text and image */
+  /* margin: 100px 70px; */
+  
+}
+
+.text{
+   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align:left;
+  text-transform: capitalize;
+  line-height: 1.2;
+  word-spacing: 5px;
+}
+.text{
+  /* margin: 130px 140px 150px 120px ; */
+  margin: 90px 90px; 
+  margin-bottom: 250px;
+  margin-right: 50px;
+}
+
+.box h1{
+  font-size: 50px;            /* heading size */
+  font-weight:1000;
+}
+.highlight {
+  color: #ff9800;             /* naam ka part highlight karne ke liye */
+}
+.ab {
+  /* margin-bottom: 70px ; */
+  /* font-weight: normal; */
+  font-size: 25px;
+  color: black; /* dark red (you can change it) */
+  text-transform: capitalize;
+}
+.abc{
+   font-size: 25px;
+   color: #8b0000;
+     letter-spacing: 1px;
+     margin-top: 10px;
+     text-transform: capitalize;
+      word-spacing: 5px;
+      text-overflow: hidden;
+      white-space: nowrap;
+      width: 0;
+      text-shadow: 0 0 6px rgb(255, 200, 0);
+      
+}
+h4{
+  /* font-size: 20px; */
+}
+.portfolio img{
+  display: flex;
+  height: 370px;
+  width: 370px;
+  /* border-style: circle; */
+  border-radius: 190px;       
+box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+
+}
+.portfolio {
+  /* margin-right: 170px; */
+ 
+  margin: 130px 170px 250px 200px ;
+  /* margin-left: 500px; */
+}
+
+
+.btn {
+
+  height: 50px;
+  width: 150px;
+  size: medium;
+  border: 2px solid rgb(6, 6, 117);
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgb(6, 6, 117);
+  color: white;
+
+} 
+.btn:hover{
+  box-shadow: 0 0 15px rgba(22, 3, 54, 0.3);
+}
+.social-links {
+  margin-top: 20px;
+ 
+}
+
+.social-links a {
+  background-color: rgb(26, 255, 244);
+  color: #1e0357; 
+  border: 2px solid rgb(125, 250, 243);
+  /* border-color: black; */
+  border-radius: 60px;
+  border-width: 5px;
+  
+  font-size: 20px;      
+  /* margin-right: 15px; */
+  
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #09d1e7;       /* hover pe white ya koi aur color */
+  
+}
